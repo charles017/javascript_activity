@@ -11,5 +11,8 @@ function question() {
   }
 }
 
+
+question();
+
 let text = prompt(`Please help us improve by leaving a short comment`);
 alert(`You have written ${text.length} number of characters`);
