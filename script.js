@@ -6,8 +6,10 @@ function question() {
   const ansWer = prompt(`What is the capital of the Philippines?`).toUpperCase();
   if (ansWer == "MANILA") {
     document.getElementById("demo2").innerHTML = `You are CORRECT!`;
+    document.body.style.backgroundColor = 'green';
   } else {
     document.getElementById("demo2").innerHTML = `You are WRONG!`;
+    document.body.style.backgroundColor = 'red';
   }
 }
 
